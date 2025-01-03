@@ -13,7 +13,7 @@ const Cards = ({ item }) => {
         <h1 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{item.title}</h1>
         <p className="text-gray-700 dark:text-gray-300 mb-4">{item.desc}</p>
         <div className="flex gap-4 mt-4">
-          <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition duration-300">
+          <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition duration-300">
             <a href={item.live} target="_blank" rel="noopener noreferrer">
               Live Preview
             </a>

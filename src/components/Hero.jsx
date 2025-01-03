@@ -16,10 +16,10 @@ const Hero = () => {
         <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between' >
             <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10'>
                <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm Santanu 
-               <span className='text-red-500'> Banik</span></h1>
+               <span className='text-green-500'> Banik</span></h1>
                <p className='md:text-2xl text-xl mb-4'>Web Developer & Designer</p>
                <p className='mb-4'>I'm a passionate web developer with expertise in React, Next.js, and modern web technologies. I love creating beautiful and functional website that solve real world problems.</p>
-               <button className='bg-black text-white px-3 py-2 w-max rounded-md shadow-md hover:shadow-lg transition-all dark:shadow-white'>
+               <button className='bg-green-600 text-white px-3 py-2 w-max rounded-md shadow-md hover:shadow-lg transition-all dark:shadow-white'>
   <a href="" download target='_blank'>Download CV</a>
 </button>
             </div>

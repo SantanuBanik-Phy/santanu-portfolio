@@ -32,8 +32,8 @@ const Navbar = ({ theme, toggleTheme }) => {
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-orange-400 font-bold underline"
-                    : "hover:text-orange-600"
+                    ? "text-green-500 font-bold underline"
+                    : "hover:text-green-600"
                 }
               >
                 Home
@@ -44,8 +44,8 @@ const Navbar = ({ theme, toggleTheme }) => {
                 to="/aboutme"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-orange-400 font-bold underline"
-                    : "hover:text-orange-600"
+                    ? "text-green-500 font-bold underline"
+                    : "hover:text-green-600"
                 }
               >
                 About
@@ -56,11 +56,23 @@ const Navbar = ({ theme, toggleTheme }) => {
                 to="/projects"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-orange-400 font-bold underline"
-                    : "hover:text-orange-600"
+                    ? "text-green-500 font-bold underline"
+                    : "hover:text-green-600"
                 }
               >
                 Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contactme"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-green-500 font-bold underline"
+                    : "hover:text-green-600"
+                }
+              >
+                Contact
               </NavLink>
             </li>
           </ul>
@@ -78,8 +90,8 @@ const Navbar = ({ theme, toggleTheme }) => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange-400 font-bold border-b-2 border-orange-400 pb-1"
-                  : "hover:text-orange-400 transition duration-300"
+                  ? "text-green-500 font-bold border-b-2 border-green-500 pb-1"
+                  : "hover:text-green-500 transition duration-300"
               }
             >
               Home
@@ -90,8 +102,8 @@ const Navbar = ({ theme, toggleTheme }) => {
               to="/aboutme"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange-400 font-bold border-b-2 border-orange-400 pb-1"
-                  : "hover:text-orange-400 transition duration-300"
+                  ? "text-green-500 font-bold border-b-2 border-green-500 pb-1"
+                  : "hover:text-green-500 transition duration-300"
               }
             >
               About
@@ -102,8 +114,8 @@ const Navbar = ({ theme, toggleTheme }) => {
               to="/projects"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange-400 font-bold border-b-2 border-orange-400 pb-1"
-                  : "hover:text-orange-400 transition duration-300"
+                  ? "text-green-500 font-bold border-b-2 border-green-500 pb-1"
+                  : "hover:text-green-500 transition duration-300"
               }
             >
               Projects
@@ -111,11 +123,11 @@ const Navbar = ({ theme, toggleTheme }) => {
           </li>
           <li>
             <NavLink
-              to="/contact"
+              to="/contactme"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange-400 font-bold border-b-2 border-orange-400 pb-1"
-                  : "hover:text-orange-400 transition duration-300"
+                  ? "text-green-500 font-bold border-b-2 border-green-500 pb-1"
+                  : "hover:text-green-500 transition duration-300"
               }
             >
               Contact
@@ -128,18 +140,17 @@ const Navbar = ({ theme, toggleTheme }) => {
       <div className="navbar-end flex items-center space-x-4">
         <Link
           to=""
-          className="btn rounded-full bg-white text-black font-bold shadow-md"
+          className="btn rounded-full bg-green-500 text-white font-bold shadow-md hover:bg-green-600"
         >
           Hire Me
         </Link>
 
         {/* Light/Dark Theme Toggle Button */}
         <button
-        
           onClick={toggleTheme}
-          className="btn btn-outline border-0 hover:bg-orange-400"
+          className="btn btn-outline border-0 hover:bg-green-400"
         >
-          {theme === 'light' ?  <MoonIcon className="text-black"/> :  <SunIcon className="text-yellow-400" />}
+          {theme === 'light' ? <MoonIcon className="text-black" /> : <SunIcon className="text-yellow-400" />}
         </button>
       </div>
     </nav>

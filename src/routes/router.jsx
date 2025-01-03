@@ -3,6 +3,8 @@ import HomeLayout from "../layouts/HomeLayout";
 import Home from "../pages/home";
 import About from "../components/About";
 import AboutMe from "../pages/AboutMe";
+import ContactMe from "../pages/ContactMe";
+import AllProjects from "../pages/AllProjects";
 
 
 
@@ -29,7 +31,15 @@ const router = createBrowserRouter([
 {
   path: "/aboutme",
   element: <AboutMe></AboutMe>
-}
+},
+{
+  path: "/contactme",
+  element: <ContactMe></ContactMe>
+},
+{
+  path: "/projects",
+  element: <AllProjects></AllProjects>
+},
    
     ],
   },

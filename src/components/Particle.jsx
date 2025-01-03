@@ -16,8 +16,8 @@ export default function Particle({ theme }) {
   const particlesLoaded = (container) => {};
 
   const backgroundColor = theme === "dark" ? "#1a202c" : "#ffffff"; // Dark or light background
-  const particleColor = theme === "dark" ? "#ffffff" : "#ed2218"; // Particle color for dark or light mode
-  const linkColor = theme === "dark" ? "#90cdf4" : "#f7655e"; // Link color for dark or light mode
+  const particleColor = theme === "dark" ? "#ffffff" : "#118B50"; // Particle color for dark or light mode
+  const linkColor = theme === "dark" ? "#90cdf4" : "#5DB996"; // Link color for dark or light mode
 
   return (
     <>

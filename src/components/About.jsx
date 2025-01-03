@@ -45,7 +45,7 @@ const About = () => {
                     variants={fadeIn}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-lg text-red-600 dark:text-red-400 font-bold uppercase tracking-wider">
+                    <h2 className="text-lg text-green-600 dark:text-green-400 font-bold uppercase tracking-wider">
                         About Me
                     </h2>
                     <p className="mt-4 text-4xl font-extrabold text-gray-900 dark:text-gray-100 sm:text-5xl">
@@ -81,7 +81,7 @@ const About = () => {
                                 whileHover={{ scale: 1.1 }}
                                 transition={{ type: 'spring', stiffness: 200 }}
                             />
-                            <div className="absolute -top-8 -right-8 h-24 w-24 bg-red-500 rounded-full opacity-20 animate-pulse"></div>
+                            <div className="absolute -top-8 -right-8 h-24 w-24 bg-green-500 rounded-full opacity-20 animate-pulse"></div>
                         </div>
                     </motion.div>
 
@@ -94,7 +94,7 @@ const About = () => {
                         variants={fadeIn}
                         transition={{ duration: 0.8 }}
                     >
-                        <h3 className="text-2xl font-semibold text-red-600 dark:text-red-400 text-center mb-6">
+                        <h3 className="text-2xl font-semibold text-green-600 dark:text-green-400 text-center mb-6">
                             Skills & Expertise
                         </h3>
                         <motion.div
