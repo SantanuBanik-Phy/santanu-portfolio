@@ -2,6 +2,8 @@ import React from 'react'
 import facebook from '../assets/facebook.png'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
+import github from '../assets/Github.png'
+import twitter from '../assets/twitter.png'
 
 import contact from '../assets/contact-2.json'
 import Lottie from 'lottie-react'
@@ -15,12 +17,18 @@ const Contact = () => {
               <h2 className='text-3xl font-bold mb-3 text-green-500'>Get in Touch</h2>
               <p className='mb-4 text-white/85'>I'm always open to new opportunities and collaboration. Feel free to reach out!</p>
               <div className='flex space-x-4'>
-                <a href="#" className='text-foreground/60 hover:text-foreground/80'>
-                <img src={facebook} alt="" className='h-6 w-6'/></a>
-                <a href="#" className='text-foreground/60 hover:text-foreground/80'>
-                <img src={instagram} alt="" className='h-6 w-6'/></a>
-                <a href="#" className='text-foreground/60 hover:text-foreground/80'>
-                <img src={linkedin} alt="" className='h-6 w-6'/></a>
+              <a href="https://www.facebook.com/santanu.banik.779" target="_blank" rel="noopener noreferrer">
+          <img src={facebook} alt="Facebook" className='w-10 hover:opacity-80 transition-all' />
+        </a>
+        <a href="https://github.com/SantanuBanik-Phy" target="_blank" rel="noopener noreferrer">
+          <img src={github} alt="github" className='w-10 hover:opacity-80 transition-all' />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src={twitter} alt="Twitter" className='w-10 hover:opacity-80 transition-all' />
+        </a>
+        <a href="https://www.linkedin.com/in/santanu-banik-a208651b2/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt="LinkedIn" className='w-10 hover:opacity-80 transition-all' />
+        </a>
               </div>
                 <Lottie animationData={contact} className='w-[350px] mx-auto lg:w-[500px]'/>
             </div>

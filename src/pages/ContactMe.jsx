@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import contactImage from '../assets/hero.png'; // Replace with your PNG image path
+import contactImage from '../assets/contact.jpg'; // Replace with your PNG image path
+import { Helmet } from 'react-helmet';
 
 const ContactMe = () => {
     return (
@@ -106,6 +107,7 @@ const ContactMe = () => {
                     </form>
                 </motion.div>
             </div>
+            <Helmet> <title>Contact | Santanu's Portfolio</title></Helmet>
         </section>
     );
 };

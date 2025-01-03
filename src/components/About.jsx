@@ -12,6 +12,7 @@ import NodeLogo from '../assets/NodeLogo.png';
 import Mongodb from '../assets/mongodb.svg';
 import Express from '../assets/Express.png';
 import NextJs from '../assets/NextJs.png';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     const fadeIn = {
@@ -71,7 +72,7 @@ const About = () => {
                             My Journey
                         </h3>
                         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                            I began my development journey with a passion for crafting user-centric applications. Proficient in the MERN stack, I’ve built projects like a movie portal, service reviews, and more.
+                            My journey into programming started with a deep interest in technology and a desire to solve real-world problems. I began learning to code at an early age, diving into HTML and CSS before progressing to JavaScript. After mastering the basics, I quickly became fascinated by frameworks like React, Redux, and Next.js, and I started building full-stack applications using the MERN stack.
                         </p>
                         <div className="mt-8 relative flex justify-center lg:justify-start">
                             <motion.img
@@ -134,7 +135,10 @@ const About = () => {
                         More About Me
                     </h3>
                     <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                        Beyond coding, I enjoy exploring new technologies and trends in web development. I also run a YouTube channel where I teach JavaScript, MERN Stack development, WordPress, and Digital Marketing to help others grow in the tech field.
+                        When I’m not coding, you can find me exploring new trends in technology, sketching, or indulging in my love for sports. Drawing and painting have always been a passion of mine, and I often spend my free time experimenting with different styles and techniques. I believe that creativity and problem-solving go hand in hand, and I bring that mindset to my programming work.
+                        <br /><br />
+                        <Link to='/aboutme' className='btn-sm btn btn-outline rounded-full '>Read More</Link>
+                      
                     </p>
                 </motion.div>
             </div>

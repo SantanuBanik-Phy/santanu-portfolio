@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar } from "lucide-react";
-import about from "../assets/Santanu-pic.png"
+import about from "../assets/hero-1.png"
 import {
   SiHtml5,
   SiCss3,
@@ -20,6 +20,7 @@ import {
   SiExpress
 } from "react-icons/si";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const personalInfo = [
   { icon: <User2 size={20} />, text: "Santanu Banik" },
@@ -73,7 +74,7 @@ const AboutMe = () => {
               </svg>
               Experience
             </h4>
-            <ul className="mt-4 space-y-4">
+            {/* <ul className="mt-4 space-y-4">
               {[
                 { company: "ABC Inc", position: "Software Engineer", years: "2021-2022" },
                 { company: "ABC Inc", position: "Software Engineer", years: "2022-2023" },
@@ -94,7 +95,7 @@ const AboutMe = () => {
                   </div>
                 </motion.li>
               ))}
-            </ul>
+            </ul> */}
           </motion.div>
 
           {/* Education */}
@@ -111,9 +112,9 @@ const AboutMe = () => {
             </h4>
             <ul className="mt-4 space-y-4">
               {[
-                { school: "A.R.N.C Vidhyalya", degree: "10th Pass", years: "2015-2016" },
-                { school: "Adarsh Madhyamik Vidhyalya", degree: "11th-12th", years: "2016-2018" },
-                { school: "Bangabashi Morning College", degree: "Bachelor of Science", years: "2019-2021" },
+                { school: "Notre Dame College,Dhaka", degree: "HSC in Science", years: "2016-2018" },
+                { school: "Jagannath Univarsity,Dhaka", degree: "Bsc Honors,Physics", years: "2018-present" },
+               
               ].map((edu, index) => (
                 <motion.li
                   key={index}
@@ -185,12 +186,12 @@ const AboutMe = () => {
             Learn more about my personal and professional journey.
           </motion.p>
         </div>
-        <div className="mt-16 flex flex-col lg:flex-row gap-12 items-start">
-          <div className="lg:w-2/5  relative rounded-xl overflow-hidden shadow-xl transform transition-all hover:scale-110 hover:shadow-2xl">
+        <div className="mt-16 flex flex-col lg:flex-row gap-6 items-start">
+          <div className="lg:w-1/3  relative rounded-xl overflow-hidden shadow-xl transform transition-all hover:scale-110 hover:shadow-2xl">
             <motion.img 
               src={about} 
               alt="About Me" 
-              className="w-full h-full object-cover transition-all transform hover:scale-105"
+              className="w-full h-full  object-cover transition-all transform hover:scale-105"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.6 }}
@@ -222,6 +223,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <Helmet> <title>About | Santanu's Portfolio</title></Helmet>
     </section>
   );
 };

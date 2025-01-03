@@ -1,0 +1,105 @@
+[
+    {
+        "id": "1",
+        "title": "Service Review System",
+        "image": "https://i.ibb.co.com/zNhF2jQ/Screenshot-2025-01-03-at-4-15-22-PM.png",
+        "desc": "A full-stack web application for users to review and interact with various services, featuring robust service and review management.",
+        "stack": [
+          "React",
+          "TailwindCSS",
+          "DaisyUI",
+          "Framer Motion",
+          "Axios",
+          "Firebase Authentication",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JWT"
+        ],
+        "details": "This project allows users to manage services and reviews in a user-friendly interface. Challenges included implementing real-time search and filters, managing JWT authentication, and integrating user dashboards. Future improvements involve enhancing the dashboard with analytics and adding multi-language support.",
+        "live": "https://b10-a11.web.app/",
+        "github": "https://github.com/SantanuBanik-Phy/service-review-project"
+      },
+      
+      {
+        "id": "2",
+        "title": "Movie Portal",
+        "image": "https://i.ibb.co.com/FsxMsDp/Screenshot-2025-01-03-at-4-13-16-PM.png",
+        "desc": "A user-friendly platform to explore, manage, and review movies with dynamic features.",
+        "stack": [
+          "React",
+          "TailwindCSS",
+          "DaisyUI",
+          "Swiper.js",
+          "React Hook Form",
+          "React Simple Star Rating",
+          "Firebase Authentication",
+          "MongoDB",
+          "Express.js",
+          "CORS"
+        ],
+        "details": "This project allows users to explore movies, manage favorites, and add their own movie entries. Challenges included implementing dynamic carousels and dark/light mode themes. Future improvements include integrating movie recommendations and enhancing UI accessibility.",
+        "live": "https://rambunctious-plantation.surge.sh/",
+        "github": "https://github.com/SantanuBanik-Phy/movie-portal-project"
+      },
+      
+      {
+        "id": "3",
+        "title": "Forest Expeditions",
+        "image": "https://i.ibb.co.com/tXBJvcD/Screenshot-2025-01-03-at-4-16-33-PM.png",
+        "desc": "A platform connecting nature enthusiasts with adventure consultants for custom outdoor experiences.",
+        "stack": [
+          "React",
+          "Firebase",
+          "Swiper.js",
+          "React Router DOM",
+          "Animate.css",
+          "TailwindCSS",
+          "DaisyUI"
+        ],
+        "details": "This project connects users with professional consultants for planning eco-adventures like hiking and camping. Challenges included implementing dynamic sliders and secure authentication. Future improvements include expanding the range of adventure categories and adding multilingual support.",
+        "live": "https://confused-support.surge.sh/",
+        "github": "https://github.com/SantanuBanik-Phy/forest-expidation-project"
+      },
+      
+      {
+        "id": "4",
+        "title": "Gadget Store",
+        "image": "https://i.ibb.co.com/z7ndJmR/Screenshot-2025-01-03-at-4-17-41-PM-2.png",
+        "desc": "An interactive gadget store with dynamic cart and wishlist management.",
+        "stack": [
+          "React",
+          "TailwindCSS",
+          "React Router",
+          "Local Storage",
+          "React Hot Toast"
+        ],
+        "details": "This project showcases an online gadget store with features like dynamic cart and wishlist management, real-time updates, and category-based product filtering. Challenges included implementing real-time event handling for cart updates and ensuring data persistence using local storage. Future plans include integrating the Context API for global state management and adding user authentication.",
+        "live": "https://gadgets-heaven-shan.netlify.app/",
+        "github": "https://github.com/SantanuBanik-Phy/gadget-heaven-project"
+      },
+      
+      {
+        "id": "5",
+        "title": "Cricket Dream Team Selection",
+        "image": "https://i.ibb.co.com/ZT8xBYy/Screenshot-2025-01-03-at-4-18-12-PM.png",
+        "desc": "Assemble your ultimate Dream 11 cricket team with budget management and player stats.",
+        "stack": ["React", "Vite.js", "React-Toastify", "CSS Modules", "Fetch API"],
+        "details": "This project allows users to create their dream cricket team by selecting up to 6 players within a coin budget. Key features include real-time coin tracking, player stats-based selection, and validation to prevent duplicate selections. Interactive feedback through React-Toastify enhances the user experience. Future plans include adding team performance analytics and sharing options.",
+        "live": "https://festive-pest.surge.sh/",
+        "github": "https://github.com/SantanuBanik-Phy/cricket-team-project"
+      },
+      
+      {
+        "id": "6",
+        "title": "Peddy - Pet Adoption Platform",
+        "image": "https://i.ibb.co.com/wQsPbLt/Screenshot-2025-01-03-at-4-18-45-PM.png",
+        "desc": "A platform connecting pet lovers with pets available for adoption, featuring categories like dogs, cats, rabbits, and birds.",
+        "stack": ["React", "CSS Modules", "Netlify", "Fetch API", "Async/Await"],
+        "details": "Peddy is a web-based application enabling users to browse pets by category and adopt them through an interactive process. Key features include a responsive design, countdown adoption process, loading spinner for data fetching, and modals for detailed pet information. Future plans involve integrating user authentication and a pet adoption history feature.",
+        "live": "https://petadoptation-platform-bysantanu.netlify.app/",
+        "github": "https://github.com/SantanuBanik-Phy/pet-adaptation-project"
+      }
+      
+  ]
+  
