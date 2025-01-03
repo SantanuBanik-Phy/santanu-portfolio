@@ -6,6 +6,7 @@ import AboutMe from "../pages/AboutMe";
 import ContactMe from "../pages/ContactMe";
 import AllProjects from "../pages/AllProjects";
 import DetailsPage from "../pages/DetailsPage";
+import ErrorPage from "../pages/ErrorPage";
 
 
 
@@ -59,10 +60,10 @@ const router = createBrowserRouter([
     ],
   },
   
-  // {
-  //   path: "*",
-  //   element: <ErrorPage></ErrorPage>
-  // },
+  {
+    path: "*",
+    element: <ErrorPage></ErrorPage>
+  },
 ]);
 
 export default router;
